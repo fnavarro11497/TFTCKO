@@ -1,0 +1,178 @@
+body {
+    font-family: 'Julius Sans One', sans-serif;
+    background: url(images/fbbe282e940039a76cb2d4216de7a914.png);
+    background-repeat: no-repeat;
+
+}
+
+
+h1{
+    text-align: center;
+    color: #000;
+    font-size: 3rem;
+}
+
+.blue-color {
+    color: #123ABC;
+    -webkit-text-stroke: 0.775px black;
+    font-weight: 700;
+}
+
+.purple-color {
+    color: #B0D0E0;
+    -webkit-text-stroke: 0.775px black;
+    font-weight: 700;
+}
+
+.green-color {
+    color: #6af8a6;
+    -webkit-text-stroke: 0.775px black;
+    font-weight: 700;
+}
+
+.header-desc {
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: 500;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    max-width: 1200px;
+    margin: 60px auto 10px;
+  }
+
+.composiciones-area{
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    border: 12px solid #c9a664;
+    border-bottom: none;
+    background-image: url("images/d6b063fa14d5993696ab640b4c18ad1d.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-radius: 5px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+   
+}
+
+.comp-button {
+    border: none;
+    background-color: transparent;
+}
+
+.AstralImg {
+    width: 250px;
+    height: 250px;
+    border-radius: 10%;
+    object-fit: cover;
+    object-position: 80% 100%;
+    box-shadow: 0px 0px 45px #eee;
+
+}
+
+
+.weapon-icon {
+    margin: 50px 0;
+    font-size: 70px;
+    transition: all .3s;
+  }
+
+
+.weapon-icon:hover {
+    cursor: pointer;
+    -webkit-transform: scale(1.3);
+    transform: scale(1.1);
+    transition: all .3s;
+  }
+
+.disabled-button .weapon-icon {
+    cursor: default;
+    transform: none;
+  }
+.disabled-button .weapon-icon {
+    cursor: default;
+    transform: none;
+  }
+
+.comp-button:focus,
+.play-again:focus {
+  outline: none;
+}
+
+
+.computer-icon {
+    width: 100px;
+    height: 100px;
+    margin: 50px 50px 40px 50px;
+}
+
+.computer-title {
+    margin: 19px 0 -30px 19px;
+    font-size: 19px;
+  }
+
+.grey-border {
+    border-right: 12px solid #c9a664;
+  }
+
+.game-output {
+    display: flex;
+    border: 12px solid #c9a664;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-image: url("images/56cc0c656e6c2.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 50% 30%;
+    color: #c9a664;
+    transition: all .2s linear;
+    
+   
+}
+
+.computer-play-div {
+    transition: all .2s linear;
+  }
+
+.game-results{
+   margin: 0 20px;
+   font-size: 19px;
+}
+
+.game-results > *{
+    text-align: left;
+    
+}
+
+
+.opacity {
+    opacity: 0.5;
+  }
+  .game-end-div {
+    text-align: center;
+  }
+  .game-end-text {
+    font-size: 50px;
+  }
+
+
+.play-again {
+    visibility: hidden;
+    margin-bottom: 60px;
+    padding: 20px;
+    font-size: 25px;
+    color: #5e5e5e;
+    border: 4px solid #5e5e5e;
+    border-radius: 5px;
+    background-color: transparent;
+    transition: all .3s;
+    cursor: pointer;
+  }
+
+  .play-again:hover {
+    background-color: #5e5e5e;
+    color: #fff;
+  }

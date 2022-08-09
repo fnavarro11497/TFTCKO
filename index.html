@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Raleway:ital,wght@0,200;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="gameHeader">
+      <h1>
+        <span class="blue-color">Astral</span> &nbsp;
+        <span class="purple-color">Jubiloso</span> &nbsp;
+        <span class="green-color">Jade</span>
+      </h1>
+      <p class="header-desc">3 Composiciones | 5 Turnos | 2 Destinos</p>
+      <p class="header-desc">
+        <span class="blue-color">Astral</span> le gana a
+        <span class="purple-color">Jubiloso</span> |
+        <span class="purple-color">Jubiloso</span> le gana a
+        <span class="green-color">Jade</span> |
+        <span class="green-color">Jade</span> le gana a
+        <span class="blue-color">Astral</span>
+      </p>
+    </header>
+
+    <main class="main-content">
+      <div class="composiciones-area">
+        <button class="astral-button comp-button">
+          <img
+            class="AstralImg weapon-icon"
+            src="./images/aurelion-sol-lol-splash-art-uhdpaper.com-hd-692-1.jpg"
+            alt="Composiciones"
+          />
+        </button>
+        <button class="Jubiloso-button comp-button">
+          <img
+            class="AstralImg weapon-icon"
+            src="./images/Daeja.jpg"
+            alt="Composiciones"
+          />
+        </button>
+        <button class="jade-button comp-button">
+          <img
+            class="AstralImg weapon-icon"
+            src="./images/b6de1865-shi-oh-yu-splash-1.jpg"
+            alt="Composiciones"
+          />
+        </button>
+      </div>
+
+      <div class="game-output">
+        <div class="computer-play-div grey-border centering">
+          <p class="computer-title">COMP ENEMIGA</p>
+          <img
+            id="changeImg"
+            class="computer-icon fa-skull"
+            src="images/unnamed.png"
+            alt=""
+          />
+        </div>
+        <div class="game-results">
+          <p class="round">Ronda: 0</p>
+          <p class="lives">Tu Vida: 100 | Vida del Enemigo: 100</p>
+          <p class="combat-text"></p>
+        </div>
+      </div>
+    </main>
+
+    <div class="game-end-div">
+      <p class="game-end-text"></p>
+      <button class="play-again">Otra vez!</button>
+    </div>
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>
